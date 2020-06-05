@@ -1,8 +1,8 @@
 import numpy as np
 
-from DEG.checks import check_array_length, check_lenght_two_array, check_valid_options_of_DEG_types
-from DEG.constants import HOURS_OF_THE_DAY, AIR_DENSITY_DEFAULT_kgm3, COP_DEFAULT, STOREY_HEIGHT_DEFAULT_m, ACH_DEFAULT
-from DEG.functions import calc_h_lat, calc_h_sen, calc_humidity_ratio
+from dailyenthalpygradient.checks import check_array_length, check_lenght_two_array, check_valid_options_of_DEG_types
+from dailyenthalpygradient.constants import HOURS_OF_THE_DAY, AIR_DENSITY_DEFAULT_kgm3, COP_DEFAULT, STOREY_HEIGHT_DEFAULT_m, ACH_DEFAULT
+from dailyenthalpygradient.functions import calc_h_lat, calc_h_sen, calc_humidity_ratio
 
 
 class DailyEnhtalpyGradient(object):

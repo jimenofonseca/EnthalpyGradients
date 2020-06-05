@@ -1,4 +1,4 @@
-from DEG.constants import CPW_kJ_kgC, h_we_kJ_kg, CPA_kJ_kgC
+from dailyenthalpygradient.constants import CPW_kJ_kgC, h_we_kJ_kg, CPA_kJ_kgC
 
 
 def calc_humidity_ratio(rh_percent, dry_bulb_C, patm_mbar):
