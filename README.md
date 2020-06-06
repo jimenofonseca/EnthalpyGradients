@@ -10,6 +10,9 @@ Library for calculation of daily and hourly enthalpy gradients in buildings
 Here's a simple example in Python:
 
 ```python
+import numpy as np
+from enthalpygradients import EnthalpyGradient
+
 # local variables
 Temperature_base_C = 18.5
 Relative_humidity_base_perc = 50
