@@ -7,7 +7,7 @@ install_requires = ['numpy',
                     'pandas']
 
 setup(
-    name='Enthalpy Gradients',
+    name='EnthalpyGradients',
     version='1.0',
     packages=['EnthalpyGradients'],
     url='https://github.com/JIMENOFONSECA/EnthalpyGradients',
