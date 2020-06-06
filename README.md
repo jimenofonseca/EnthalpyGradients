@@ -35,27 +35,11 @@ Temperature_outdoor_C = np.random.normal(22, 5, 8760)
 Relative_humidity_outdoor_perc = np.random.normal(40, 10, 8760)
 
 ## total daily enthalpy gradient
-how = 'daily'
-type = 'total'
-deg_total_kJ_kg_day = eg.enthalpy_gradient(Temperature_outdoor_C, Relative_humidity_outdoor_perc, type=type, how=how)
+deg_total_kJ_kg_day = eg.enthalpy_gradient(Temperature_outdoor_C, Relative_humidity_outdoor_perc)
 print("The total daily enthalpy gradient is {}".format(deg_total_kJ_kg_day))
 
 ## total specific thermal energy consumption
-how = 'daily'
-type = 'total'
-air_exchanges_per_hour = 4
-ACH = 4
-COP = 3.0
-air_density_kgm3 = 1.03
-storey_height_m = 3
-q_total_kWh_m2 = eg.specific_thermal_consumption(Temperature_outdoor_C,
-                                                 Relative_humidity_outdoor_perc,
-                                                 type=type,
-                                                 how=how,
-                                                 ACH=ACH,
-                                                 COP=COP,
-                                                 air_density_kgm3=air_density_kgm3,
-                                                 storey_height_m=storey_height_m)
+q_total_kWh_m2 = eg.specific_thermal_consumption(Temperature_outdoor_C, Relative_humidity_outdoor_perc)
 print("The specific thermal energy consumption is {} kWh/m2".format(q_total_kWh_m2))
 ```
 
