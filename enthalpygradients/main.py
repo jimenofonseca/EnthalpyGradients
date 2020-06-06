@@ -168,7 +168,11 @@ class EnthalpyGradient(object):
         T_out_C = check_and_transform_to_array(T_out_C)
         RH_out_C = check_and_transform_to_array(RH_out_C)
         DEG_KJperkg = self.enthalpy_gradient(T_out_C, RH_out_C, type, how)
-        specific_thermal_consumption_kWhm2yr = (storey_height_m * air_density_kgm3 * ACH *
-                                                DEG_KJperkg * HOURS_OF_THE_DAY) / (COP * 3600)
 
-        return specific_thermal_consumption_kWhm2yr
+        if how == "daily":
+            specific_thermal_consumption_kWhm2 = (storey_height_m * air_density_kgm3 * ACH *
+                                                    DEG_KJperkg * HOURS_OF_THE_DAY) / (COP * 3600)
+        else:
+            specific_thermal_consumption_kWhm2 = (storey_height_m * air_density_kgm3 * ACH * DEG_KJperkg ) / (COP * 3600)
+
+        return specific_thermal_consumption_kWhm2
