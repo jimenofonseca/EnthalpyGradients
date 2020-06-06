@@ -24,7 +24,7 @@ SOFTWARE.
 
 import os
 
-from setuptools import setup
+from setuptools import setup, Extension
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -47,7 +47,7 @@ setup(
     license='MIT',
     author='Jimeno A. Fonseca',
     author_email='fonseca.jimeno@gmail.com',
-    description='Library for calculation of daily enthalpy gradients',
+    description="Library for calculation of daily enthalpy gradients",
     long_description=long_description,
     long_description_content_type='text/markdown',
     python_requires='>=3.6',

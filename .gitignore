@@ -1,3 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
 .idea\workspace.xml
+EnthalpyGradients.egg-info
+dist
+enthalpygradients\__pycache__\__init__.cpython-36.pyc
