@@ -75,5 +75,7 @@ def get_phycometric_constants(T_C):
         m = 9.778707
         Tn = 273.1466
         A = 6.114742
+    else:
+        raise ValueError("The temperature indicated is out of bounds (-70, 50) degrees celsius")
 
     return A, m, Tn
