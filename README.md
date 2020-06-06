@@ -1,4 +1,4 @@
-# Enthalpy Gradients
+# Enthalpy Gradients ![Pyversions](https://img.shields.io/pypi/pyversions/EnthalpyGradients)![GitHub license](https://img.shields.io/github/license/JIMENOFONSECA/EnthalpyGradients)
 
 Library for calculation of daily and hourly enthalpy gradients in buildings. 
 
