@@ -1,4 +1,4 @@
-from EnthalpyGradients.constants import ENTHALPY_TYPES, HOURS_OF_THE_DAY, ENTHALPY_HOW
+from enthalpygradients.constants import ENTHALPY_TYPES, HOURS_OF_THE_DAY, ENTHALPY_HOW
 import numpy as np
 
 def check_array_length(array: np.array):

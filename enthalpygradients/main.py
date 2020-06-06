@@ -1,10 +1,10 @@
 import numpy as np
 
-from EnthalpyGradients.checks import check_array_length, check_lenght_two_array, check_valid_options_of_DEG_types, \
+from enthalpygradients.checks import check_array_length, check_lenght_two_array, check_valid_options_of_DEG_types, \
     check_and_transform_to_array, check_valid_options_of_gradient_how
-from EnthalpyGradients.constants import HOURS_OF_THE_DAY, AIR_DENSITY_DEFAULT_kgm3, COP_DEFAULT, STOREY_HEIGHT_DEFAULT_m, \
+from enthalpygradients.constants import HOURS_OF_THE_DAY, AIR_DENSITY_DEFAULT_kgm3, COP_DEFAULT, STOREY_HEIGHT_DEFAULT_m, \
     ACH_DEFAULT
-from EnthalpyGradients.functions import calc_h_lat, calc_h_sen, calc_humidity_ratio
+from enthalpygradients.functions import calc_h_lat, calc_h_sen, calc_humidity_ratio
 
 
 class EnthalpyGradient(object):
