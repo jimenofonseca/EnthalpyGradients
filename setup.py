@@ -3,12 +3,13 @@ from setuptools import setup
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-install_requires = ['numpy']
+install_requires = ['numpy',
+                    'pandas']
 
 setup(
-    name='EnthalpyGradients',
-    version='1.0.0',
-    packages=['DEG'],
+    name='Enthalpy Gradients',
+    version='1.0',
+    packages=['EnthalpyGradients'],
     url='https://github.com/JIMENOFONSECA/EnthalpyGradients',
     license='MIT',
     author='Jimeno A. Fonseca',
