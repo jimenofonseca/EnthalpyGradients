@@ -22,6 +22,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-__version__ = "1.1"
-from enthalpygradients.main import EnthalpyGradient
-
+HOURS_OF_THE_DAY = 24
+AIR_DENSITY_DEFAULT_kgm3 = 1.202
+COP_DEFAULT = 3.0
+STOREY_HEIGHT_DEFAULT_m = 3.0
+ACH_DEFAULT = 4.0
+CPW_kJ_kgC = 1.84
+h_we_kJ_kg = 2501
+CPA_kJ_kgC = 1.006
+ENTHALPY_TYPES = ['total', 'heating', 'cooling', 'humidification', 'dehumidification']
+ENTHALPY_HOW = ['daily', 'hourly']

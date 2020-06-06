@@ -1,0 +1,12 @@
+README.md
+setup.py
+EnthalpyGradients.egg-info/PKG-INFO
+EnthalpyGradients.egg-info/SOURCES.txt
+EnthalpyGradients.egg-info/dependency_links.txt
+EnthalpyGradients.egg-info/requires.txt
+EnthalpyGradients.egg-info/top_level.txt
+enthalpygradients/__init__.py
+enthalpygradients/checks.py
+enthalpygradients/constants.py
+enthalpygradients/functions.py
+enthalpygradients/main.py
