@@ -1,4 +1,4 @@
-from DEG.constants import ENTHALPY_TYPES, HOURS_OF_THE_DAY
+from EnthalpyGradients.constants import ENTHALPY_TYPES, HOURS_OF_THE_DAY, ENTHALPY_HOW
 import numpy as np
 
 def check_array_length(array: np.array):
@@ -13,8 +13,8 @@ def check_lenght_two_array(array1: np.array, array2: np.array):
     if x != y:
         raise ValueError("your data does not have the same length, we cannot calculate daily enthalpy gradients")
 
-def check_valid_options_of_DEG_types(demand_name):
-    if demand_name not in ENTHALPY_TYPES:
+def check_valid_options_of_DEG_types(type):
+    if type not in ENTHALPY_TYPES:
         raise ValueError("valid options are {}".format(ENTHALPY_TYPES))
 
 
@@ -23,3 +23,7 @@ def check_and_transform_to_array(array):
         return np.array(array)
     else:
         return array
+
+def check_valid_options_of_gradient_how(how):
+    if how not in ENTHALPY_TYPES:
+        raise ValueError("valid options are {}".format(ENTHALPY_HOW))

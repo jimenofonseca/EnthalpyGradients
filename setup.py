@@ -6,10 +6,10 @@ with open("README.md", "r") as fh:
 install_requires = ['numpy']
 
 setup(
-    name='DEG',
+    name='EnthalpyGradients',
     version='1.0.0',
     packages=['DEG'],
-    url='https://github.com/JIMENOFONSECA/DEG',
+    url='https://github.com/JIMENOFONSECA/EnthalpyGradients',
     license='MIT',
     author='Jimeno A. Fonseca',
     author_email='fonseca.jimeno@gmail.com',

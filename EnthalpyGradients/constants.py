@@ -7,3 +7,4 @@ CPW_kJ_kgC = 1.84
 h_we_kJ_kg = 2501
 CPA_kJ_kgC = 1.006
 ENTHALPY_TYPES = ['total', 'heating', 'cooling', 'humidification', 'dehumidification']
+ENTHALPY_HOW = ['daily', 'hourly']

@@ -1,4 +1,4 @@
-from DEG.constants import ENTHALPY_TYPES
+from EnthalpyGradients.constants import ENTHALPY_TYPES
 
 def check_array_length(array):
     x = len(array)
