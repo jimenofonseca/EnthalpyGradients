@@ -43,29 +43,29 @@ Relative_humidity_outdoor_perc = np.random.normal(40, 10, 8760)
 how = 'daily'
 type = 'heating'
 deg_heating_kJ_kg_day = eg.enthalpy_gradient(Temperature_outdoor_C, Relative_humidity_outdoor_perc, type=type, how=how)
-print("The daily enthalpy gradient for sensible heating is {}".format(deg_heating_kJ_kg_day))
+print("The daily enthalpy gradient for sensible heating is {} kJ/kg.day".format(deg_heating_kJ_kg_day))
 
 ## daily enthalpy gradient for sensible cooling
 how = 'daily'
 type = 'cooling'
 deg_cooling_kJ_kg_day = eg.enthalpy_gradient(Temperature_outdoor_C, Relative_humidity_outdoor_perc, type=type, how=how)
-print("The daily enthalpy gradient for sensible cooling is {}".format(deg_cooling_kJ_kg_day))
+print("The daily enthalpy gradient for sensible cooling is {} kJ/kg.day".format(deg_cooling_kJ_kg_day))
 
 ## daily enthalpy gradient for latent heating (humidification)
 how = 'daily'
 type = 'humidification'
 deg_humidification_kJ_kg_day = eg.enthalpy_gradient(Temperature_outdoor_C, Relative_humidity_outdoor_perc, type=type, how=how)
-print("The daily enthalpy gradient for latent heating (humidification) is {}".format(deg_humidification_kJ_kg_day))
+print("The daily enthalpy gradient for latent heating (humidification) is {} kJ/kg.day".format(deg_humidification_kJ_kg_day))
 
 ## daily enthalpy gradient for latent heating dehumidification)
 how = 'daily'
 type = 'dehumidification'
 deg_dehumidification_kJ_kg_day = eg.enthalpy_gradient(Temperature_outdoor_C, Relative_humidity_outdoor_perc, type=type, how=how)
-print("The daily enthalpy gradient for latent cooling (dehumidification) is {}".format(deg_dehumidification_kJ_kg_day))
+print("The daily enthalpy gradient for latent cooling (dehumidification) is {} kJ/kg.day".format(deg_dehumidification_kJ_kg_day))
 
 ## total daily enthalpy gradient
 ## we can calculate it, or alternatively you can sum up the other 4 gradients (heating, cooling, dehum., and hum.
 how = 'daily'
 type = 'total'
 deg_total_kJ_kg_day = eg.enthalpy_gradient(Temperature_outdoor_C, Relative_humidity_outdoor_perc, type=type, how=how)
-print("The total daily enthalpy gradient is {}".format(deg_total_kJ_kg_day))
+print("The total daily enthalpy gradient is {} kJ/kg.day".format(deg_total_kJ_kg_day))

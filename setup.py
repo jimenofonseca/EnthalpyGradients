@@ -22,9 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-from setuptools import setup
 import os
 
+from setuptools import setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -48,10 +48,11 @@ setup(
     author_email='fonseca.jimeno@gmail.com',
     description='Library for calculation of daily enthalpy gradients',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     python_requires='>=3.6',
     install_requires=install_requires,
     classifiers=[
-            "Programming Language :: Python :: 3",
-            "License :: OSI Approved :: MIT License",
-            "Operating System :: OS Independent"]
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"]
 )

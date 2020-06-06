@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44f0cb72-2c52-4bb1-947d-d644143570a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/EnthalpyGradients.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnthalpyGradients.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnthalpyGradients.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnthalpyGradients.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnthalpyGradients.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/enthalpygradients/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/enthalpygradients/checks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/enthalpygradients/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/enthalpygradients/functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/enthalpygradients/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/EnthalpyGradients-1.1-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/EnthalpyGradients-1.1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/enthalpygradients/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/enthalpygradients/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnthalpyGradients.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/EnthalpyGradients.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/EnthalpyGradients-1.2-py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/dist/EnthalpyGradients-1.2-py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/EnthalpyGradients-1.2.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/EnthalpyGradients-1.2.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enthalpygradients/examples/advanced_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/enthalpygradients/examples/advanced_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enthalpygradients/examples/simple_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/enthalpygradients/examples/simple_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enthalpygradients/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/enthalpygradients/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +21,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enthalpygradients/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="136" column="57" lean-forward="true" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="57" />
+            <state relative-caret-position="2890">
+              <caret line="170" column="57" lean-forward="true" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1083#1101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#1083#1092#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enthalpygradients/examples/simple_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="268">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -51,13 +55,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enthalpygradients/examples/specific_thermal_energy_consumption_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/enthalpygradients/examples/advanced_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="461">
+              <caret line="62" column="96" lean-forward="true" selection-start-line="62" selection-start-column="96" selection-end-line="62" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -66,8 +76,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <first_editor relative-caret-position="150">
+                <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -95,17 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enthalpygradients/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enthalpygradients/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="75" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -145,15 +158,15 @@
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/enthalpygradients/checks.py" />
         <option value="$PROJECT_DIR$/enthalpygradients/constants.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/enthalpygradients/functions.py" />
         <option value="$PROJECT_DIR$/tests/test.py" />
         <option value="$PROJECT_DIR$/enthalpygradients/examples/specific_thermal_energy_consumption_example.py" />
-        <option value="$PROJECT_DIR$/enthalpygradients/examples/advanced_example.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/enthalpygradients/examples/simple_example.py" />
-        <option value="$PROJECT_DIR$/enthalpygradients/main.py" />
         <option value="$PROJECT_DIR$/enthalpygradients/__init__.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/enthalpygradients/main.py" />
+        <option value="$PROJECT_DIR$/enthalpygradients/examples/advanced_example.py" />
+        <option value="$PROJECT_DIR$/enthalpygradients/examples/simple_example.py" />
       </list>
     </option>
   </component>
@@ -175,6 +188,17 @@
             <path>
               <item name="EnthalpyGradients" type="b2602c69:ProjectViewProjectNode" />
               <item name="EnthalpyGradients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnthalpyGradients" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnthalpyGradients" type="462c0819:PsiDirectoryNode" />
+              <item name="enthalpygradients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnthalpyGradients" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnthalpyGradients" type="462c0819:PsiDirectoryNode" />
+              <item name="enthalpygradients" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,8 +238,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simple_example">
-    <configuration name="checks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.advanced_example">
+    <configuration name="advanced_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DEG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,34 +247,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DEG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/enthalpygradients/examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DEG/checks.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DEG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DEG" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DEG/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/enthalpygradients/examples/advanced_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,6 +305,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="specific_thermal_energy_consumption_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DEG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/enthalpygradients/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/enthalpygradients/examples/specific_thermal_energy_consumption_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DEG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.advanced_example" />
+        <item itemvalue="Python.specific_thermal_energy_consumption_example" />
         <item itemvalue="Python.simple_example" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.setup" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.checks" />
       </list>
     </recent_temporary>
   </component>
@@ -347,23 +371,23 @@
       <updated>1591359117508</updated>
       <workItem from="1591359121721" duration="9614000" />
       <workItem from="1591406937445" duration="838000" />
-      <workItem from="1591407933199" duration="7698000" />
+      <workItem from="1591407933199" duration="8582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18150000" />
+    <option name="totallyTimeSpent" value="19034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29100528" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23386243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -387,12 +411,14 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EnthalpyGradients$advanced_example.coverage" NAME="advanced_example Coverage Results" MODIFIED="1591418161336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/enthalpygradients/examples" />
     <SUITE FILE_PATH="coverage/DEG$test.coverage" NAME="test Coverage Results" MODIFIED="1591368518042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EnthalpyGradients$setup.coverage" NAME="setup Coverage Results" MODIFIED="1591411136354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EnthalpyGradients$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1591415135531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/DEG$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1591407587060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/EnthalpyGradients$simple_example.coverage" NAME="simple_example Coverage Results" MODIFIED="1591417093775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/enthalpygradients/examples" />
+    <SUITE FILE_PATH="coverage/EnthalpyGradients$simple_example.coverage" NAME="simple_example Coverage Results" MODIFIED="1591418145248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/enthalpygradients/examples" />
     <SUITE FILE_PATH="coverage/DEG$checks.coverage" NAME="checks Coverage Results" MODIFIED="1591368534441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DEG" />
+    <SUITE FILE_PATH="coverage/EnthalpyGradients$specific_thermal_energy_consumption_example.coverage" NAME="specific_thermal_energy_consumption_example Coverage Results" MODIFIED="1591418152332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/enthalpygradients/examples" />
     <SUITE FILE_PATH="coverage/DEG$main.coverage" NAME="main Coverage Results" MODIFIED="1591368541945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DEG" />
   </component>
   <component name="debuggerHistoryManager">
@@ -473,13 +499,6 @@
     <entry file="file://$PROJECT_DIR$/EnthalpyGradients.egg-info/requires.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/enthalpygradients/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/enthalpygradients/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -494,13 +513,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/enthalpygradients/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enthalpygradients/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#1083#1092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enthalpygradients/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="170" column="57" lean-forward="true" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
+          <folding>
+            <element signature="e#1083#1101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <first_editor relative-caret-position="150">
+            <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enthalpygradients/examples/simple_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,56 +574,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/enthalpygradients/examples/advanced_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enthalpygradients/examples/simple_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enthalpygradients/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="136" column="57" lean-forward="true" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enthalpygradients/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="75" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+        <state relative-caret-position="461">
+          <caret line="62" column="96" lean-forward="true" selection-start-line="62" selection-start-column="96" selection-end-line="62" selection-end-column="96" />
         </state>
       </provider>
     </entry>
