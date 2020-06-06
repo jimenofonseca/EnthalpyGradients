@@ -1,6 +1,6 @@
-# Daily Enthalpy Gradients
+# Enthalpy Gradients
 
-Library for calculation of daily enthalpy gradients
+Library for calculation of daily and hourly enthalpy gradients in buildings
 
 ## Cite
 
