@@ -1,13 +1,19 @@
 # Enthalpy Gradients
 
-Library for calculation of daily and hourly enthalpy gradients in buildings
+Library for calculation of daily and hourly enthalpy gradients in buildings. Enthalpy gradients can be used to
+estimate the specific thermal energy consumption of a building due to space heating, space cooling, humidification and dehumidification.
+Check the[`examples`](https://github.com/JIMENOFONSECA/EnthalpyGradients/tree/master/enthalpygradients/examples) folder for basci and advanced functionality
+
+## How does it work
+
+
 
 ## Installation
 
     pip install EnthalpyGradients
     
 ## Simple Example
-Here's a simple example in Python:
+Here is a simple example in Python:
 
 ```python
 import numpy as np
@@ -40,5 +46,6 @@ of a building using enthalpy gradients.
 
 ## Cite
 
-J.A. Fonseca and A. Schlueter, Daily enthalpy gradients and the effects of climate change on the thermal 
+[`J. A. Fonseca`](https://doi.org/10.1016/j.apenergy.2019.114458)  and A. Schlueter, Daily enthalpy gradients and the effects of climate change on the thermal 
 energy demand of buildings in the United States, Appl. Energy, vol. 262, no. September 2019, p. 114458, 2020.
+https://doi.org/10.1016/j.apenergy.2019.114458
