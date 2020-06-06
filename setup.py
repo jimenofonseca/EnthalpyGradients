@@ -43,6 +43,7 @@ setup(
     version=_version['__version__'],
     packages=['enthalpygradients'],
     url='https://github.com/JIMENOFONSECA/EnthalpyGradients',
+    download_url='https://github.com/JIMENOFONSECA/EnthalpyGradients/archive/1.0.tar.gz',
     license='MIT',
     author='Jimeno A. Fonseca',
     author_email='fonseca.jimeno@gmail.com',
