@@ -22,12 +22,12 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Launch the local action
-        uses: ./ # Uses an action in the root directory
+        uses: shadowmoose/GHA-LoC-Badge@1.0.0
         id: badge
         with:
           debug: true
           directory: ./
-          badge: ./output/badge.svg
+          badge: ./output/badge-lines-of-code.svg
           ignore: 'node_modules/|README'
 
       - name: Print the output
