@@ -1,5 +1,5 @@
-# Enthalpy Gradients ![Pyversions](https://img.shields.io/pypi/pyversions/EnthalpyGradients)![GitHub license](https://img.shields.io/github/license/JIMENOFONSECA/EnthalpyGradients)
-
+# Enthalpy Gradients
+![Pyversions](https://img.shields.io/pypi/pyversions/EnthalpyGradients) ![GitHub license](https://img.shields.io/github/license/JIMENOFONSECA/EnthalpyGradients) ![Repo Size](https://img.shields.io/github/repo-size/JIMENOFONSECA/enthalpygradients)
 Library for calculation of daily and hourly enthalpy gradients in buildings. 
 
 Enthalpy gradients can be used to estimate the specific thermal energy consumption of a building due to space heating, space cooling, humidification and dehumidification.
